@@ -22,7 +22,7 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router>
+    <Router basename="/nb-w20-homework">
       <div className={classes.root}>
         <Header/>
         {/*
@@ -33,13 +33,13 @@ function App() {
           of them to render at a time
         */}
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/nb-w20-homework">
             <Portfolio />
           </Route>
-          <Route path="/about">
+          <Route path="/nb-w20-homework/about">
             <About />
           </Route>
-          <Route path="/contact">
+          <Route path="/nb-w20-homework/contact">
             <Contact />
           </Route>
         </Switch>
