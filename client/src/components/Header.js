@@ -1,5 +1,6 @@
 import React from 'react';
-import { Typography, Toolbar, AppBar, List, ListItem, Link } from '@material-ui/core';
+import { Typography, Toolbar, AppBar, List, ListItem } from '@material-ui/core';
+import { NavLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 
 
@@ -30,17 +31,17 @@ export default function Header() {
         <List className={classes.flexContainer}>
           <ListItem>
             <Typography variant="h6" className={classes.title}>
-              <Link href="/" className={classes.title}>Home</Link>
+              <NavLink to="/" className={classes.title}>Home</NavLink>
             </Typography>
           </ListItem>
           <ListItem>
             <Typography variant="h6" className={classes.title}>
-              <Link href="/about" className={classes.title}>About</Link>
+              <NavLink to="/about" className={classes.title}>About</NavLink>
             </Typography>
           </ListItem>
           <ListItem>
             <Typography variant="h6" className={classes.title}>
-              <Link href="/contact" className={classes.title}>Contact</Link>
+              <NavLink to="/contact" className={classes.title}>Contact</NavLink>
             </Typography>
           </ListItem>
         </List>

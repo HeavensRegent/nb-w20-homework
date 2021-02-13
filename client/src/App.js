@@ -22,7 +22,7 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Router basename="/nb-w20-homework">
+    <Router>
       <div className={classes.root}>
         <Header/>
         {/*
