@@ -1,7 +1,6 @@
 {
   "name": "nb-w20-homework",
   "version": "0.1.0",
-  "homepage": "https://HeavensRegent.github.io/nb-w20-homework",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
