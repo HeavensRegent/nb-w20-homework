@@ -15,5 +15,8 @@
     "build": "cd client && yarn build",
     "heroku-postbuild": "yarn build"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
 }
