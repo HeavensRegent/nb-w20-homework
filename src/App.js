@@ -33,13 +33,13 @@ function App() {
           of them to render at a time
         */}
         <Switch>
-          <Route exact path="/nb-w20-homework">
+          <Route exact path="/">
             <Portfolio />
           </Route>
-          <Route path="/nb-w20-homework/about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="/nb-w20-homework/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
         </Switch>
